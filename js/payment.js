@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     bookConsultationBtn.addEventListener('click', function() {
         // Replace 'YOUR_KEY_ID' with your actual Razorpay Key ID
         const options = {
-            key: 'rzp_test_RbFgP2lJY1Mr22', // Your test key ID
+            key: 'rzp_test_RbFgP2lJY1Mr', // Your test key ID
             amount: 2000000, // Amount in paise (₹2,000)
             currency: 'INR',
             name: 'Kanwal Raj Rahi',
